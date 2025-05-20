@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: beige;
+}
+
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+a {color: maroon;
+text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: blue;
+}
+
+.resumelistheading{
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* Header Section */
+#header {
+    font-family: sans-serif;
+    color: rgb(112, 136, 213);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#all {
+    width: 560px;
+}
+
+#main-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #333;
+    margin: 20px auto;
+     /* Center the content */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#footer {
+    background-color: rgb(72, 192, 213);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
